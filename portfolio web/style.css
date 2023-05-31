@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #080808;
+}
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.hero img {
+    width: 10%;
+    height: 10%;
+}
+.hero nav ul{
+    width: 84%;
+    padding: 20px 0;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.hero nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+    padding-left: 80px;
+    font-size: 20px;
+}
+.hero nav ul li a {
+    text-decoration: none;
+    color: #eff4ef;
+    font-weight: bold;
+}
+.hero nav ul li a:hover {
+    color: red;
+}
+.detail a {
+    color: red;
+}
+.detail h1 {
+    color: #eff4ef;
+    font-size: 40px;
+}
+.detail h2 {
+    color: #eff4ef;
+}
+.detail {
+    margin-left: 8%;
+    margin-top: 15%;
+    display: inline-block;
+}
+.content{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.content img {
+    width: 25%;
+    margin-left: 40%;
+    border-radius: 30px 30px;
+}
+.content nav ul{
+    width: 84%;
+    padding: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    color: #eff4ef;
+}
+.content nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 20px;
+}
+.content nav ul li a {
+    text-decoration: none;
+    color: #eff4ef;
+    font-weight: bold;
+}
+.content nav ul li a:hover {
+    color: red;
+}
+.images img {
+    width: 22%;
+    height: 50%;
+    margin-left: 78%;
+}
+.images:hover .background{
+    bottom: 45%;
+}
+.hobby img {
+    width: 20%;
+    height: 20%;
+    display: flex;
+    margin-left: 40%;
+    border-radius: 30px;
+    position: relative;
+}
+.hobby .music {
+    margin-top: 15px;
+}
+.hobby p {
+    color: #eff4ef;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-style: bold;
+    padding-top: 20px;
+    position: relative;
+    text-align: center;
+
+}
